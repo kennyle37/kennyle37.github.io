@@ -2004,7 +2004,10 @@ input, select, textarea {
 		}
 
 /* Icon */
-
+	.pointer {
+		cursor: pointer;
+	}
+	
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2307,6 +2310,10 @@ input, select, textarea {
 					}
 
 				}
+
+	.fa-linode {
+		cursor: pointer;
+	}
 
 /* Table */
 
