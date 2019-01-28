@@ -2004,10 +2004,14 @@ input, select, textarea {
 		}
 
 /* Icon */
+	.resume {
+		text-decoration: none !important;
+	}
+
 	.pointer {
 		cursor: pointer;
 	}
-	
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2060,7 +2064,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #fff;
 		}
 
 		.icon.style2 {
@@ -2069,6 +2073,7 @@ input, select, textarea {
 
 		.icon.style3 {
 			color: #76ddff;
+			text-decoration: none;
 		}
 
 /* Image */
