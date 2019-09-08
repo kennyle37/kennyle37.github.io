@@ -92,7 +92,7 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-	}
+  }
 
 /* Basic */
 
@@ -121,7 +121,7 @@
 				}
 			}
 
-	}
+  }
 
 	body, input, select, textarea {
 		color: _palette(fg);
@@ -1338,8 +1338,8 @@
 		}
 
 		&.style5 {
-			@include wrapper(accent7);
-		}
+      @include wrapper(accent7);
+    }
 
 		@include breakpoint('<=medium') {
 			@include padding(4em, 3em);
@@ -1808,8 +1808,8 @@
 			> header {
 				background-attachment: scroll;
 			}
-		}
-	}
+    }
+  }
 
 /* Footer */
 
@@ -1913,4 +1913,4 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
-	}
+  }
