@@ -132,6 +132,9 @@ input, select, textarea {
 				font-size: 11pt;
 				letter-spacing: 0.0375em;
 			}
+			#name {
+				display:none;
+			}
 
 		}
 
@@ -1749,7 +1752,6 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
 						}
-
 		}
 
 /* Section/Article */
@@ -2312,7 +2314,6 @@ input, select, textarea {
 					ul.icons.major li {
 						padding: 0 1em !important;
 					}
-
 				}
 
 	.fa-linode {
