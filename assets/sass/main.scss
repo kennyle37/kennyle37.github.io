@@ -4,8 +4,14 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import 'font-awesome.min.css';
+@import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+
+/*
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 // Breakpoints.
 
@@ -86,7 +92,7 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-  }
+	}
 
 /* Basic */
 
@@ -115,7 +121,7 @@
 				}
 			}
 
-  }
+	}
 
 	body, input, select, textarea {
 		color: _palette(fg);
@@ -444,7 +450,7 @@
 		z-index: -1;
 
 		& + label {
-			@include icon;
+			@include icon(false, solid);
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
@@ -459,13 +465,14 @@
 				border-radius: 3px;
 				content: '';
 				display: inline-block;
-				height: (_size(element-height) * 0.6);
+				font-size: 0.8em;
+				height: (_size(element-height) * 0.75);
 				left: 0;
-				line-height: (_size(element-height) * 0.575);
+				line-height: (_size(element-height) * 0.75);
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: (_size(element-height) * 0.6);
+				width: (_size(element-height) * 0.75);
 			}
 		}
 
@@ -550,6 +557,22 @@
 
 		> .label {
 			display: none;
+		}
+
+		&:before{
+			line-height: inherit;
+		}
+
+		&.solid {
+			&:before {
+				font-weight: 900;
+			}
+		}
+
+		&.brands {
+			&:before {
+				font-family: 'Font Awesome 5 Brands';
+			}
 		}
 
 		&.major {
@@ -1332,8 +1355,8 @@
 		}
 
 		&.style5 {
-      @include wrapper(accent7);
-    }
+			@include wrapper(accent7);
+		}
 
 		@include breakpoint('<=medium') {
 			@include padding(4em, 3em);
@@ -1751,7 +1774,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1802,8 +1825,8 @@
 			> header {
 				background-attachment: scroll;
 			}
-    }
-  }
+		}
+	}
 
 /* Footer */
 
@@ -1876,7 +1899,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1897,7 +1920,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -1907,4 +1930,4 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
-  }
+	}

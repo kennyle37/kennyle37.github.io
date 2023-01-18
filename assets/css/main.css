@@ -1,5 +1,11 @@
-@import url(font-awesome.min.css);
+@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+/*
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -81,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: #B0D5C0;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -125,9 +131,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 				letter-spacing: 0.0375em;
-			}
-			#name {
-				display:none;
 			}
 
 		}
@@ -327,19 +330,19 @@ input, select, textarea {
 		}
 
 		.row > .col-1 {
-			width: 8.3333333333%;
+			width: 8.33333%;
 		}
 
 		.row > .off-1 {
-			margin-left: 8.3333333333%;
+			margin-left: 8.33333%;
 		}
 
 		.row > .col-2 {
-			width: 16.6666666667%;
+			width: 16.66667%;
 		}
 
 		.row > .off-2 {
-			margin-left: 16.6666666667%;
+			margin-left: 16.66667%;
 		}
 
 		.row > .col-3 {
@@ -351,19 +354,19 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.3333333333%;
+			width: 33.33333%;
 		}
 
 		.row > .off-4 {
-			margin-left: 33.3333333333%;
+			margin-left: 33.33333%;
 		}
 
 		.row > .col-5 {
-			width: 41.6666666667%;
+			width: 41.66667%;
 		}
 
 		.row > .off-5 {
-			margin-left: 41.6666666667%;
+			margin-left: 41.66667%;
 		}
 
 		.row > .col-6 {
@@ -375,19 +378,19 @@ input, select, textarea {
 		}
 
 		.row > .col-7 {
-			width: 58.3333333333%;
+			width: 58.33333%;
 		}
 
 		.row > .off-7 {
-			margin-left: 58.3333333333%;
+			margin-left: 58.33333%;
 		}
 
 		.row > .col-8 {
-			width: 66.6666666667%;
+			width: 66.66667%;
 		}
 
 		.row > .off-8 {
-			margin-left: 66.6666666667%;
+			margin-left: 66.66667%;
 		}
 
 		.row > .col-9 {
@@ -399,19 +402,19 @@ input, select, textarea {
 		}
 
 		.row > .col-10 {
-			width: 83.3333333333%;
+			width: 83.33333%;
 		}
 
 		.row > .off-10 {
-			margin-left: 83.3333333333%;
+			margin-left: 83.33333%;
 		}
 
 		.row > .col-11 {
-			width: 91.6666666667%;
+			width: 91.66667%;
 		}
 
 		.row > .off-11 {
-			margin-left: 91.6666666667%;
+			margin-left: 91.66667%;
 		}
 
 		.row > .col-12 {
@@ -570,19 +573,19 @@ input, select, textarea {
 				}
 
 				.row > .col-1-xlarge {
-					width: 8.3333333333%;
+					width: 8.33333%;
 				}
 
 				.row > .off-1-xlarge {
-					margin-left: 8.3333333333%;
+					margin-left: 8.33333%;
 				}
 
 				.row > .col-2-xlarge {
-					width: 16.6666666667%;
+					width: 16.66667%;
 				}
 
 				.row > .off-2-xlarge {
-					margin-left: 16.6666666667%;
+					margin-left: 16.66667%;
 				}
 
 				.row > .col-3-xlarge {
@@ -594,19 +597,19 @@ input, select, textarea {
 				}
 
 				.row > .col-4-xlarge {
-					width: 33.3333333333%;
+					width: 33.33333%;
 				}
 
 				.row > .off-4-xlarge {
-					margin-left: 33.3333333333%;
+					margin-left: 33.33333%;
 				}
 
 				.row > .col-5-xlarge {
-					width: 41.6666666667%;
+					width: 41.66667%;
 				}
 
 				.row > .off-5-xlarge {
-					margin-left: 41.6666666667%;
+					margin-left: 41.66667%;
 				}
 
 				.row > .col-6-xlarge {
@@ -618,19 +621,19 @@ input, select, textarea {
 				}
 
 				.row > .col-7-xlarge {
-					width: 58.3333333333%;
+					width: 58.33333%;
 				}
 
 				.row > .off-7-xlarge {
-					margin-left: 58.3333333333%;
+					margin-left: 58.33333%;
 				}
 
 				.row > .col-8-xlarge {
-					width: 66.6666666667%;
+					width: 66.66667%;
 				}
 
 				.row > .off-8-xlarge {
-					margin-left: 66.6666666667%;
+					margin-left: 66.66667%;
 				}
 
 				.row > .col-9-xlarge {
@@ -642,19 +645,19 @@ input, select, textarea {
 				}
 
 				.row > .col-10-xlarge {
-					width: 83.3333333333%;
+					width: 83.33333%;
 				}
 
 				.row > .off-10-xlarge {
-					margin-left: 83.3333333333%;
+					margin-left: 83.33333%;
 				}
 
 				.row > .col-11-xlarge {
-					width: 91.6666666667%;
+					width: 91.66667%;
 				}
 
 				.row > .off-11-xlarge {
-					margin-left: 91.6666666667%;
+					margin-left: 91.66667%;
 				}
 
 				.row > .col-12-xlarge {
@@ -815,19 +818,19 @@ input, select, textarea {
 				}
 
 				.row > .col-1-large {
-					width: 8.3333333333%;
+					width: 8.33333%;
 				}
 
 				.row > .off-1-large {
-					margin-left: 8.3333333333%;
+					margin-left: 8.33333%;
 				}
 
 				.row > .col-2-large {
-					width: 16.6666666667%;
+					width: 16.66667%;
 				}
 
 				.row > .off-2-large {
-					margin-left: 16.6666666667%;
+					margin-left: 16.66667%;
 				}
 
 				.row > .col-3-large {
@@ -839,19 +842,19 @@ input, select, textarea {
 				}
 
 				.row > .col-4-large {
-					width: 33.3333333333%;
+					width: 33.33333%;
 				}
 
 				.row > .off-4-large {
-					margin-left: 33.3333333333%;
+					margin-left: 33.33333%;
 				}
 
 				.row > .col-5-large {
-					width: 41.6666666667%;
+					width: 41.66667%;
 				}
 
 				.row > .off-5-large {
-					margin-left: 41.6666666667%;
+					margin-left: 41.66667%;
 				}
 
 				.row > .col-6-large {
@@ -863,19 +866,19 @@ input, select, textarea {
 				}
 
 				.row > .col-7-large {
-					width: 58.3333333333%;
+					width: 58.33333%;
 				}
 
 				.row > .off-7-large {
-					margin-left: 58.3333333333%;
+					margin-left: 58.33333%;
 				}
 
 				.row > .col-8-large {
-					width: 66.6666666667%;
+					width: 66.66667%;
 				}
 
 				.row > .off-8-large {
-					margin-left: 66.6666666667%;
+					margin-left: 66.66667%;
 				}
 
 				.row > .col-9-large {
@@ -887,19 +890,19 @@ input, select, textarea {
 				}
 
 				.row > .col-10-large {
-					width: 83.3333333333%;
+					width: 83.33333%;
 				}
 
 				.row > .off-10-large {
-					margin-left: 83.3333333333%;
+					margin-left: 83.33333%;
 				}
 
 				.row > .col-11-large {
-					width: 91.6666666667%;
+					width: 91.66667%;
 				}
 
 				.row > .off-11-large {
-					margin-left: 91.6666666667%;
+					margin-left: 91.66667%;
 				}
 
 				.row > .col-12-large {
@@ -1060,19 +1063,19 @@ input, select, textarea {
 				}
 
 				.row > .col-1-medium {
-					width: 8.3333333333%;
+					width: 8.33333%;
 				}
 
 				.row > .off-1-medium {
-					margin-left: 8.3333333333%;
+					margin-left: 8.33333%;
 				}
 
 				.row > .col-2-medium {
-					width: 16.6666666667%;
+					width: 16.66667%;
 				}
 
 				.row > .off-2-medium {
-					margin-left: 16.6666666667%;
+					margin-left: 16.66667%;
 				}
 
 				.row > .col-3-medium {
@@ -1084,19 +1087,19 @@ input, select, textarea {
 				}
 
 				.row > .col-4-medium {
-					width: 33.3333333333%;
+					width: 33.33333%;
 				}
 
 				.row > .off-4-medium {
-					margin-left: 33.3333333333%;
+					margin-left: 33.33333%;
 				}
 
 				.row > .col-5-medium {
-					width: 41.6666666667%;
+					width: 41.66667%;
 				}
 
 				.row > .off-5-medium {
-					margin-left: 41.6666666667%;
+					margin-left: 41.66667%;
 				}
 
 				.row > .col-6-medium {
@@ -1108,19 +1111,19 @@ input, select, textarea {
 				}
 
 				.row > .col-7-medium {
-					width: 58.3333333333%;
+					width: 58.33333%;
 				}
 
 				.row > .off-7-medium {
-					margin-left: 58.3333333333%;
+					margin-left: 58.33333%;
 				}
 
 				.row > .col-8-medium {
-					width: 66.6666666667%;
+					width: 66.66667%;
 				}
 
 				.row > .off-8-medium {
-					margin-left: 66.6666666667%;
+					margin-left: 66.66667%;
 				}
 
 				.row > .col-9-medium {
@@ -1132,19 +1135,19 @@ input, select, textarea {
 				}
 
 				.row > .col-10-medium {
-					width: 83.3333333333%;
+					width: 83.33333%;
 				}
 
 				.row > .off-10-medium {
-					margin-left: 83.3333333333%;
+					margin-left: 83.33333%;
 				}
 
 				.row > .col-11-medium {
-					width: 91.6666666667%;
+					width: 91.66667%;
 				}
 
 				.row > .off-11-medium {
-					margin-left: 91.6666666667%;
+					margin-left: 91.66667%;
 				}
 
 				.row > .col-12-medium {
@@ -1305,19 +1308,19 @@ input, select, textarea {
 				}
 
 				.row > .col-1-small {
-					width: 8.3333333333%;
+					width: 8.33333%;
 				}
 
 				.row > .off-1-small {
-					margin-left: 8.3333333333%;
+					margin-left: 8.33333%;
 				}
 
 				.row > .col-2-small {
-					width: 16.6666666667%;
+					width: 16.66667%;
 				}
 
 				.row > .off-2-small {
-					margin-left: 16.6666666667%;
+					margin-left: 16.66667%;
 				}
 
 				.row > .col-3-small {
@@ -1329,19 +1332,19 @@ input, select, textarea {
 				}
 
 				.row > .col-4-small {
-					width: 33.3333333333%;
+					width: 33.33333%;
 				}
 
 				.row > .off-4-small {
-					margin-left: 33.3333333333%;
+					margin-left: 33.33333%;
 				}
 
 				.row > .col-5-small {
-					width: 41.6666666667%;
+					width: 41.66667%;
 				}
 
 				.row > .off-5-small {
-					margin-left: 41.6666666667%;
+					margin-left: 41.66667%;
 				}
 
 				.row > .col-6-small {
@@ -1353,19 +1356,19 @@ input, select, textarea {
 				}
 
 				.row > .col-7-small {
-					width: 58.3333333333%;
+					width: 58.33333%;
 				}
 
 				.row > .off-7-small {
-					margin-left: 58.3333333333%;
+					margin-left: 58.33333%;
 				}
 
 				.row > .col-8-small {
-					width: 66.6666666667%;
+					width: 66.66667%;
 				}
 
 				.row > .off-8-small {
-					margin-left: 66.6666666667%;
+					margin-left: 66.66667%;
 				}
 
 				.row > .col-9-small {
@@ -1377,19 +1380,19 @@ input, select, textarea {
 				}
 
 				.row > .col-10-small {
-					width: 83.3333333333%;
+					width: 83.33333%;
 				}
 
 				.row > .off-10-small {
-					margin-left: 83.3333333333%;
+					margin-left: 83.33333%;
 				}
 
 				.row > .col-11-small {
-					width: 91.6666666667%;
+					width: 91.66667%;
 				}
 
 				.row > .off-11-small {
-					margin-left: 91.6666666667%;
+					margin-left: 91.66667%;
 				}
 
 				.row > .col-12-small {
@@ -1550,19 +1553,19 @@ input, select, textarea {
 				}
 
 				.row > .col-1-xsmall {
-					width: 8.3333333333%;
+					width: 8.33333%;
 				}
 
 				.row > .off-1-xsmall {
-					margin-left: 8.3333333333%;
+					margin-left: 8.33333%;
 				}
 
 				.row > .col-2-xsmall {
-					width: 16.6666666667%;
+					width: 16.66667%;
 				}
 
 				.row > .off-2-xsmall {
-					margin-left: 16.6666666667%;
+					margin-left: 16.66667%;
 				}
 
 				.row > .col-3-xsmall {
@@ -1574,19 +1577,19 @@ input, select, textarea {
 				}
 
 				.row > .col-4-xsmall {
-					width: 33.3333333333%;
+					width: 33.33333%;
 				}
 
 				.row > .off-4-xsmall {
-					margin-left: 33.3333333333%;
+					margin-left: 33.33333%;
 				}
 
 				.row > .col-5-xsmall {
-					width: 41.6666666667%;
+					width: 41.66667%;
 				}
 
 				.row > .off-5-xsmall {
-					margin-left: 41.6666666667%;
+					margin-left: 41.66667%;
 				}
 
 				.row > .col-6-xsmall {
@@ -1598,19 +1601,19 @@ input, select, textarea {
 				}
 
 				.row > .col-7-xsmall {
-					width: 58.3333333333%;
+					width: 58.33333%;
 				}
 
 				.row > .off-7-xsmall {
-					margin-left: 58.3333333333%;
+					margin-left: 58.33333%;
 				}
 
 				.row > .col-8-xsmall {
-					width: 66.6666666667%;
+					width: 66.66667%;
 				}
 
 				.row > .off-8-xsmall {
-					margin-left: 66.6666666667%;
+					margin-left: 66.66667%;
 				}
 
 				.row > .col-9-xsmall {
@@ -1622,19 +1625,19 @@ input, select, textarea {
 				}
 
 				.row > .col-10-xsmall {
-					width: 83.3333333333%;
+					width: 83.33333%;
 				}
 
 				.row > .off-10-xsmall {
-					margin-left: 83.3333333333%;
+					margin-left: 83.33333%;
 				}
 
 				.row > .col-11-xsmall {
-					width: 91.6666666667%;
+					width: 91.66667%;
 				}
 
 				.row > .off-11-xsmall {
-					margin-left: 91.6666666667%;
+					margin-left: 91.66667%;
 				}
 
 				.row > .col-12-xsmall {
@@ -1746,6 +1749,7 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
 						}
+
 		}
 
 /* Section/Article */
@@ -1809,6 +1813,7 @@ input, select, textarea {
 	}
 
 /* Form */
+
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -1854,7 +1859,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #DFB3AE;
 		}
 
 	select {
@@ -1916,10 +1921,14 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				display: inline-block;
 				font-style: normal;
-				font-weight: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
 				text-transform: none !important;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 900;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -1928,25 +1937,26 @@ input, select, textarea {
 				border-radius: 3px;
 				content: '';
 				display: inline-block;
-				height: 1.65em;
+				font-size: 0.8em;
+				height: 2.0625em;
 				left: 0;
-				line-height: 1.58125em;
+				line-height: 2.0625em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 1.65em;
+				width: 2.0625em;
 			}
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background: #B0D5C0;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #DFB3AE;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1999,13 +2009,6 @@ input, select, textarea {
 		}
 
 /* Icon */
-	.resume {
-		text-decoration: none !important;
-	}
-
-	.pointer {
-		cursor: pointer;
-	}
 
 	.icon {
 		text-decoration: none;
@@ -2016,14 +2019,30 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			display: inline-block;
 			font-style: normal;
-			font-weight: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
 			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
 		}
 
 		.icon > .label {
 			display: none;
+		}
+
+		.icon:before {
+			line-height: inherit;
+		}
+
+		.icon.solid:before {
+			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 		.icon.major {
@@ -2059,7 +2078,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #fff;
+			color: #00ffcc;
 		}
 
 		.icon.style2 {
@@ -2068,7 +2087,6 @@ input, select, textarea {
 
 		.icon.style3 {
 			color: #76ddff;
-			text-decoration: none;
 		}
 
 /* Image */
@@ -2308,11 +2326,8 @@ input, select, textarea {
 					ul.icons.major li {
 						padding: 0 1em !important;
 					}
-				}
 
-	.fa-linode {
-		cursor: pointer;
-	}
+				}
 
 /* Table */
 
@@ -2474,7 +2489,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #ed4933;
 			box-shadow: none !important;
-			color: #ffffff !important;
+			color: #FFFFF8 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2802,16 +2817,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #557a95;
-			color: #ffff;
+			background-color: #DFB3AE;
+			color: #c8ece9;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style1 hr {
@@ -2839,7 +2854,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 label {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style1 input[type="text"],
@@ -2855,8 +2870,8 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 select option {
-					color: #ffffff;
-					background: #21b2a6;
+					color: #FFFFF8;
+					background: #DFB3AE;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2871,8 +2886,8 @@ input, select, textarea {
 
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
-				background: #ffffff;
-				color: #21b2a6;
+				background: #FFFFF8;
+				color: #DFB3AE;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2912,7 +2927,7 @@ input, select, textarea {
 				}
 
 			.wrapper.style1 table th {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style1 table thead {
@@ -2933,7 +2948,7 @@ input, select, textarea {
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
 				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 				.wrapper.style1 input[type="submit"]:hover,
@@ -2961,20 +2976,20 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #B0D5C0;
 		}
 
 		.wrapper.style3 {
-			background-color: #b1a296;
-			color: #fff;
+			background-color: #989CA0;
+			color: #d3d4e4;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style3 hr {
@@ -3002,7 +3017,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 label {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style3 input[type="text"],
@@ -3018,8 +3033,8 @@ input, select, textarea {
 			}
 
 				.wrapper.style3 select option {
-					color: #ffffff;
-					background: #505393;
+					color: #FFFFF8;
+					background: #989CA0;
 				}
 
 			.wrapper.style3 input[type="checkbox"] + label,
@@ -3034,8 +3049,8 @@ input, select, textarea {
 
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
-				background: #ffffff;
-				color: #505393;
+				background: #FFFFF8;
+				color: #989CA0;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3075,7 +3090,7 @@ input, select, textarea {
 				}
 
 			.wrapper.style3 table th {
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style3 table thead {
@@ -3096,7 +3111,7 @@ input, select, textarea {
 			.wrapper.style3 button,
 			.wrapper.style3 .button {
 				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
-				color: #ffffff;
+				color: #FFFFF8;
 			}
 
 				.wrapper.style3 input[type="submit"]:hover,
@@ -3128,16 +3143,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
+			background-color: #FFFFF8;
 			color: #4E4852;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
-				color: #2E3842;
+				color: #B0D5C0;
 			}
 
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-				color: #2E3842;
+				color: #B0D5C0;
 			}
 
 			.wrapper.style5 hr {
@@ -3165,7 +3180,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 label {
-				color: #2E3842;
+				color: #B0D5C0;
 			}
 
 			.wrapper.style5 input[type="text"],
@@ -3181,8 +3196,8 @@ input, select, textarea {
 			}
 
 				.wrapper.style5 select option {
-					color: #2E3842;
-					background: #ffffff;
+					color: #B0D5C0;
+					background: #FFFFF8;
 				}
 
 			.wrapper.style5 input[type="checkbox"] + label,
@@ -3197,8 +3212,8 @@ input, select, textarea {
 
 			.wrapper.style5 input[type="checkbox"]:checked + label:before,
 			.wrapper.style5 input[type="radio"]:checked + label:before {
-				background: #2E3842;
-				color: #ffffff;
+				background: #B0D5C0;
+				color: #FFFFF8;
 			}
 
 			.wrapper.style5 ::-webkit-input-placeholder {
@@ -3238,7 +3253,7 @@ input, select, textarea {
 				}
 
 			.wrapper.style5 table th {
-				color: #2E3842;
+				color: #B0D5C0;
 			}
 
 			.wrapper.style5 table thead {
@@ -3259,7 +3274,7 @@ input, select, textarea {
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				color: #B0D5C0;
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3336,8 +3351,8 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
-		color: #ffffff;
+		background: #DFB3AE;
+		color: #FFFFF8;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -3430,7 +3445,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #B0D5C0;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3492,7 +3507,7 @@ input, select, textarea {
 						color: #fff;
 						display: block;
 						font-size: 0.8em;
-						letter-spacing: 0.05em;
+						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
 					}
@@ -3679,7 +3694,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #E5BDA7;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3799,10 +3814,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3949,10 +3964,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3961,7 +3976,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: #E5BDA7;
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3970,10 +3985,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
