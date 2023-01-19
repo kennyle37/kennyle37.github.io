@@ -10,7 +10,9 @@
 		$body = $('body'),
 		$wrapper = $('#page-wrapper'),
 		$banner = $('#banner'),
-		$header = $('#header');
+		$header = $('#header'),
+		$oldie1 = $('#oldie1'),
+		$oldie2 = $('#oldie2');
 
 	// Breakpoints.
 		breakpoints({
@@ -66,18 +68,23 @@
 			});
 
 	// Header.
-		if ($banner.length > 0
-		&&	$header.hasClass('alt')) {
-
+		if ($banner.length > 0 &&	$header.hasClass('alt')) {
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
 			$banner.scrollex({
 				bottom:		$header.outerHeight() + 1,
 				terminate:	function() { $header.removeClass('alt'); },
-				enter:		function() { $header.addClass('alt'); },
-				leave:		function() { $header.removeClass('alt'); }
+				enter:		function() {
+					$header.addClass('alt');
+					$oldie1.removeClass('oldie-nav');
+					$oldie2.removeClass('oldie-nav');
+				},
+				leave:		function() {
+					$header.removeClass('alt');
+					$oldie1.addClass('oldie-nav');
+					$oldie2.addClass('oldie-nav');
+				}
 			});
-
 		}
 
 })(jQuery);

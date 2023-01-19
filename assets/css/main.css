@@ -3455,6 +3455,14 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
+	#header .oldie-nav {
+		display: none;
+	}
+
+	.oldie-nav-invert {
+		background-color: red;
+	}
+
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
