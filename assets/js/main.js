@@ -1,9 +1,3 @@
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -69,6 +63,7 @@
 
 	// Header.
 		if ($banner.length > 0 &&	$header.hasClass('alt')) {
+			console.log($banner, $banner.length, "banner reached")
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
 			$banner.scrollex({
