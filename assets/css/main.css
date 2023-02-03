@@ -3973,6 +3973,10 @@ input, select, textarea {
 		width: 95%;
 	}
 
+	.google-form {
+		width: 95%;
+	}
+
 /* Landing */
 
 	body.landing #page-wrapper {
