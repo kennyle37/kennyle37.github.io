@@ -3977,12 +3977,48 @@ input, select, textarea {
 		width: 95%;
 	}
 
-	@media screen and (max-width: 400px) {
+	@media screen and (max-width: 370px) {
 		.google-form {
 			height: 100%;
 		}
 		.google-form-container {
-			height: 3000px;
+			height: 3100px;
+		}
+	}
+
+	@media screen and (min-width: 371px) and (max-width: 738px) {
+		.google-form {
+			height: 100%;
+		}
+	}
+
+	@media screen and (min-width: 371px) and (max-width: 400px) {
+		.google-form-container {
+			height: 2910px;
+		}
+	}
+
+	@media screen and (min-width: 400px) and (max-width: 450px) {
+		.google-form-container {
+			height: 2520px;
+		}
+	}
+
+	@media screen and (min-width: 451px) and (max-width: 500px) {
+		.google-form-container {
+			height: 2415px;
+		}
+	}
+
+	@media screen and (min-width: 501px) and (max-width: 650px) {
+		.google-form-container {
+			height: 2377px;
+		}
+	}
+
+	@media screen and (min-width: 651px) and (max-width: 738px) {
+		.google-form-container {
+			height: 2266px;
 		}
 	}
 
