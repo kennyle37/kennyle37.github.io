@@ -2788,7 +2788,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3975,6 +3975,15 @@ input, select, textarea {
 
 	.google-form {
 		width: 95%;
+	}
+
+	@media screen and (max-width: 400px) {
+		.google-form {
+			height: 100%;
+		}
+		.google-form-container {
+			height: 3000px;
+		}
 	}
 
 /* Landing */
