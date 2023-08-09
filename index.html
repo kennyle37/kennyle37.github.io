@@ -7,15 +7,20 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/x-icon" href="/images/cheese.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      #countdown p {
+        margin: 0;
+      }
+    </style>
 	</head>
 	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
-				<!-- Header -->
+        <!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="index.html">September 16, 2023</a></h1>
-						<nav id="nav">
+            <nav id="nav">
 							<ul>
 								<li><a href="#rsvp" class="more scrolly" id="oldie1">RSVP</a></li>
 								<li><a href="#parking" class="more scrolly" id="oldie2">Direction & Parking</a></li>
@@ -41,10 +46,10 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>September 16, 2023</h2>
+							<h2>September 16, 2023 <div id="countdown"></div></h2>
 							<p>Kenny Le and Victoria Tong's Wedding</p>
-							<p>Please RSVP by June 1st, 2023!</p>
-            </div>
+							<p>Please RSVP by August 15, 2023!</p>
+            </p>
 						<a href="#info" class="more scrolly">Join Us!</a>
           </section>
 
@@ -199,7 +204,7 @@
 							<a href="assets/Local-Garage-Pricing.pdf" target="_blank"><b style="color: blue;"><u>Additional Parking Locations</u></b></a>
 						</p>
 						</p>
-						<iframe
+            <iframe
 							class="google-maps"
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.934866157678!2d-122.4133674846818!3d37.791566179756394!2m3!1f0!2f0!3f0!3m2
 							!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d74d0c5cb%3A0x583488eac8a4a9d8!2sCrocker%20Garage!5e0!3m2!1sen!2sus!4v1674669596939!5m2!1sen!2sus"
@@ -248,5 +253,48 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-	</body>
+
+    <script>
+      // Set the target time for the countdown (9:00 AM PST)
+      const targetTime = '09:00:00';
+      const targetDate = new Date('2023-09-16T' + targetTime + 'Z'); // Z indicates UTC time
+
+      function updateCountdown() {
+        const currentDateUTC = new Date();
+        const currentTimezoneOffset = currentDateUTC.getTimezoneOffset();
+        const targetTimezoneOffset = -420; // Pacific Standard Time (PST) offset in minutes
+
+        // Adjust the current date to match the target timezone offset
+        const currentDatePST = new Date(currentDateUTC.getTime() - (currentTimezoneOffset - targetTimezoneOffset) * 60 * 1000);
+
+        // Adjust the target time to match the target timezone offset
+        const targetTimePST = new Date(targetDate.getTime() - (targetTimezoneOffset * 60 * 1000));
+
+        const timeRemaining = targetTimePST - currentDatePST;
+
+        if (timeRemaining > 0) {
+          const seconds = Math.floor(timeRemaining / 1000);
+
+          const days = Math.floor(seconds / (24 * 60 * 60));
+          const hours = Math.floor((seconds % (24 * 60 * 60)) / (60 * 60));
+          const minutes = Math.floor((seconds % (60 * 60)) / 60);
+          const remainingSeconds = seconds % 60;
+
+          const formattedHours = hours.toString().padStart(2, '0');
+          const formattedMinutes = minutes.toString().padStart(2, '0');
+          const formattedSeconds = remainingSeconds.toString().padStart(2, '0');
+
+          document.getElementById('countdown').innerHTML = `
+                <b><p style="font-size: 16px">${days}: ${formattedHours}: ${formattedMinutes}: ${formattedSeconds} until the day!</p></b>
+            `;
+
+          setTimeout(updateCountdown, 1000);
+        } else {
+          document.getElementById('countdown').innerHTML = "<p>The wedding is happening!</p>";
+        }
+      }
+
+      updateCountdown();
+    </script>
+  </body>
 </html>
