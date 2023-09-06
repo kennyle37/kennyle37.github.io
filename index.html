@@ -7,11 +7,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/x-icon" href="/images/cheese.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-      #countdown p {
-        margin: 0;
-      }
-    </style>
 	</head>
 	<body class="landing is-preload">
 
@@ -22,7 +17,7 @@
 						<h1><a href="index.html">September 16, 2023</a></h1>
             <nav id="nav">
 							<ul>
-								<li><a href="#rsvp" class="more scrolly" id="oldie1">RSVP</a></li>
+                <li><a href="itinerary.html">Schedule</a></li>
 								<li><a href="#parking" class="more scrolly" id="oldie2">Direction & Parking</a></li>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
@@ -46,9 +41,15 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>September 16, 2023 <div id="countdown"></div></h2>
+							<h2 class="mainTitle">September 16, 2023
+                <div id="countdown"></div>
+              </h2>
+              <h2 class="phoneTitle">Sept 16, 2023
+                <p style="margin-top: 16px; margin-bottom: 0; font-size: 12px">Countdown:</p>
+                <div id="phoneCountdown"></div>
+              </h2>
 							<p>Kenny Le and Victoria Tong's Wedding</p>
-							<p>Please RSVP by August 15, 2023!</p>
+              <a href="https://withjoy.com/kenny-and-victoria/registry" target="_blank" style="text-decoration: underline; border-bottom: none">Gift Registry</a></h2>
             </p>
 						<a href="#info" class="more scrolly">Join Us!</a>
           </section>
@@ -192,10 +193,10 @@
 						</header>
 						<p>
 							The Fairmont has a parking lot onsite and is located on the corner of Powell and California street,
-							but it is <b>$19</b> per hour up to 4+ hours at the rate of <b>$68</b> tax included.
+							but it is <b>$22</b> per hour up to 4+ hours at the rate of <b>$85</b> tax included.
 						</p>
 						<p>
-							<b>The Crocker Garage</b> is located at 1045 California St, across the street between Mason and Taylor, offers a rate of <b>$36 for up to 12 hours</b>.
+							<b>The Crocker Garage</b> is located at 1045 California St, across the street between Mason and Taylor, offers a rate of <b>$20 for up to 12 hours</b>.
 
 						</p>
 						<p>
@@ -284,13 +285,28 @@
           const formattedMinutes = minutes.toString().padStart(2, '0');
           const formattedSeconds = remainingSeconds.toString().padStart(2, '0');
 
+          const dayText = days === 1 ? "day" : "days";
+          const hoursText = hours === 1 ? "hour" : "hours";
+          const minText = minutes === 1 ? "minute" : "minutes";
+          const secText = remainingSeconds === 1 ? "second" : "seconds";
+
+          const phoneDayText = days > 0 ? "d" : "";
+          const phoneHoursText = hours > 0 ? "h" : "";
+          const phoneMinText = minutes > 0 ? "m" : "";
+          const phoneSecText = remainingSeconds > 0 ? "s" : "";
+
           document.getElementById('countdown').innerHTML = `
-                <b><p style="font-size: 16px">${days}: ${formattedHours}: ${formattedMinutes}: ${formattedSeconds} until the day!</p></b>
+                <b><p style="font-size: 16px; margin-bottom: 0;">${days} ${dayText}: ${formattedHours} ${hoursText}: ${formattedMinutes} ${minText}: ${formattedSeconds} ${secText} until the wedding!</p></b>
+            `;
+
+          document.getElementById('phoneCountdown').innerHTML = `
+              <p style="font-size: 16px; margin-bottom: 0;">${days}${phoneDayText}: ${formattedHours}${phoneHoursText}: ${formattedMinutes}${phoneMinText}: ${formattedSeconds}${phoneSecText}</p>
             `;
 
           setTimeout(updateCountdown, 1000);
         } else {
           document.getElementById('countdown').innerHTML = "<p>The wedding is happening!</p>";
+          document.getElementById('phoneCountdown').innerHTML = "<p>The wedding is happening!</p>";
         }
       }
 
