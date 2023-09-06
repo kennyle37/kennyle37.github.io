@@ -4074,16 +4074,15 @@ input, select, textarea {
 
   /* Title */
 
-.phoneTitle {
-  display: none !important;
-}
-  @media (max-width: 500px) {
-    .mainTitle {
-      display: none !important
-    }
+/*.phoneTitle {*/
+/*  display: none !important;*/
+/*}*/
+/*  @media (max-width: 500px) {*/
+/*    .mainTitle {*/
+/*      display: none !important*/
+/*    }*/
 
-    .phoneTitle {
-      display: block !important;
-    }
-  }
-
+/*    .phoneTitle {*/
+/*      display: block !important;*/
+/*    }*/
+/*  }*/
